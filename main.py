@@ -1,7 +1,7 @@
 import keyboard  # Import keyboard library for detecting keypress events  
 import subprocess  # Import subprocess module for running system commands  
 while True:
-  sleep(1)
+  time.sleep(1)
   if keyboard.is_pressed('x'):
     break
     # Break out of infinite loop when 'X' is pressed
