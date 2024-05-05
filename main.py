@@ -1,5 +1,6 @@
-import keyboard  # Import keyboard library for detecting keypress events  
-import subprocess  # Import subprocess module for running system commands  
+import keyboard  # Import keyboard library for detecting keypress events 
+import subprocess  # Import subprocess module for running system commands
+import time
 while True:
   time.sleep(1)
   if keyboard.is_pressed('x'):
